@@ -12,8 +12,12 @@ body {
     background-color: #e17055;
 }
 
-#informacionPersonal, h1, h2, p{
+#informacionPersonal{
     background-color: #2d3436;
+}
+
+h1, h2, p {
+    color: #2d3436;
 }
 
 .row#informacionPersonal p, .row#informacionPersonal h1, .row#informacionPersonal h2{
