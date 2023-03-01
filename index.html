@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Proyecto</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+
+    <body>
+        <!--Contenedor principal-->
+        <div class="container-fluid h-100">
+
+            <!--Fila principal, el fin de esta fila es facilitar el margen izquierdo.-->
+            <div class="row h-100">
+                <!--Margen izquierdo-->
+                <div class="col-1 margen-izquierdo">
+                </div>
+
+                <!--Columna de contenido-->
+                <div class="col">
+
+                    <!--Información personal-->
+                    <div class="row" id="informacionPersonal">
+                        <!--Foto-->
+                        <div class="col-auto col-foto align-self-center">
+                            <img class="img-fluid redondo" id="foto" alt="Imágen de una persona">
+                        </div>
+
+                        <!--Nombre-->
+                        <div class="col col-nombre mx-lg-2 align-self-center">
+                            <h1 id="nombre"></h1>
+                            <h2 class="ms-lg-3" id="profesion"></h2>
+                        </div>
+
+                        <!--Datos 1-->
+                        <div class="col-lg-auto mt-3 mx-lg-auto">
+                            <p id="genero"></p>
+                            <p id="nacionalidad"></p>
+                            <p id="fechaDeNacimiento"></p>
+                            <p id="edad"></p>
+                        </div>
+
+                        <!--Datos 2-->
+                        <div class="col-lg-auto mt-lg-3 mx-lg-3">
+                            <p id="email"></p>
+                            <p id="telefono"></p>
+                            <p id="direccion"></p>
+                        </div>
+                    </div>
+
+                    <!--Trayectoria y habilidad-->
+                    <div class="row justify-content-center mt-5">
+
+                        <!--Experiencia laboral-->
+                        <div class="col-lg-auto px-3 py-5 border-5-start-0 border-5 border-lg-5">
+                            <h2 class="pb-5" id="trayectoriaTitulo"><i class="fi fi-br-document-signed"></i> Experiencia laboral</h2>
+                            <dl>
+                                <li>Negocio real</li>
+                                <dd class="ms-5"> desde - hasta</dd>
+
+                                <li>Empresa real</li>
+                                <dd class="ms-5"> desde - hasta</dd>
+
+                                <li>Otra empresa real</li>
+                                <dd class="ms-5"> desde - hasta</dd>
+                            </dl>
+                        </div>
+
+                        <!--Habilidades-->
+                        <div class="col-lg-auto px-3 py-5 border-end-5 border-lg-x-0 border-lg-y-5">
+                            <h2 class="pb-5" id="trayectoriaTitulo"><i class="fi fi-br-bulb"></i> Habilidades</h2>
+                            <ul>
+                                <li>Trabajo en equipo</li>
+                                <li>Aprendizaje fácil</li>
+                                <li>Liderazgo</li>
+                                <li>Iniciativa</li>
+                                <li>Creatividad</li>
+                            </ul>
+                        </div>
+
+                        <!--Formación Académica-->
+                        <div class="col-lg-auto px-3 py-5 border-start-0 border-5-start-0 border-lg-5">
+                            <h2 class="pb-5" id="trayectoriaTitulo"><i class="fi fi-br-graduation-cap"></i> Formación Académica</h2>
+                            <dl>
+                                <li>Escuela secundaria real</li>
+                                <dd class="ms-5"> fecha de egreso</dd>
+
+                                <li>Universidad real</li>
+                                <dd class="ms-5"> fecha de egreso</dd>
+                            </dl>
+                        </div>
+                    </div>
+
+
+                    <!--Botón para crear nueva persona-->
+                    <div class="row">
+                        <div class="col mt-4">
+                            <button type="button" class="btn btn-dark" id="boton">Nueva Persona</button>
+                        </div>
+                    </div>
+
+                    <!--Créditos-->
+                    <div class="row">
+                        <div class="col mt-5">
+                            <a href="https://www.flaticon.com/" title="Flaticon">Íconos creados por Flaticon</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="scripts/script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    </body>
+    </html>

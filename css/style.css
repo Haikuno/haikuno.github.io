@@ -1,0 +1,122 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #dfe6e9;
+    height: 100%;
+}
+
+.margen-izquierdo {
+    width: 3%;
+    background-color: #e17055;
+}
+
+#nombre{
+    text-decoration: underline;
+}
+
+#trayectoriaTitulo{
+    text-decoration: underline;
+}
+
+#informacionPersonal{
+    background-color: #2d3436;
+}
+
+.row#informacionPersonal p, .row#informacionPersonal h1, .row#informacionPersonal h2{
+    color: #dfe6e9;
+}
+
+h1,
+h2,
+p{
+    color: #2d3436;
+}
+
+li, .col-lg-auto > h2
+{
+    color: #2d3436;
+}
+
+.border-5-start-0, .border-end-5{
+    background-color: #f7f1e3;
+}
+
+.btn {
+    background-color: #e17055;
+    color: #dfe6e9;
+}
+
+.col-foto {
+    margin: 1%;
+    max-width: fit-content;
+    padding: 0;
+}
+
+@media only screen and (max-width: 991px) {
+    .col-nombre {
+        text-align: center;
+    }
+}
+
+.redondo {
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.w-100{
+    width: 100% !important;
+}
+
+h1 {
+    font-size: 3.5vmin;
+}
+
+h2, li {
+    font-size: 2.5vmin;
+}
+
+p, dd {
+    font-size: 2vmin;
+}
+
+
+@media only screen and (max-width: 991px) {
+    h1 {
+        font-size: 5vmin;
+    }
+
+    h2, li {
+        font-size: 4vmin;
+    }
+
+    p, dd {
+        font-size: 3.5vmin;
+    }
+}
+
+.border-5-start-0{
+    border: 5px solid #e17055 !important;
+    border-left : 0 !important;
+}
+
+.border-end-5{
+    border-right: 5px solid #e17055 !important;
+}
+
+@media (min-width: 992px) {
+    .border-lg-5 {
+        border: 5px solid #e17055 !important;
+    }
+
+    .border-lg-y-5 {
+        border-top: 5px solid #e17055 !important;
+        border-bottom: 5px solid #e17055 !important;
+    }
+
+    .border-lg-x-0{
+        border-left: 0 #e17055 !important;
+        border-right: 0 #e17055 !important;
+    }
+}
