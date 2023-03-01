@@ -12,15 +12,7 @@ body {
     background-color: #e17055;
 }
 
-#nombre{
-    text-decoration: underline;
-}
-
-#trayectoriaTitulo{
-    text-decoration: underline;
-}
-
-#informacionPersonal{
+#informacionPersonal, h1, h2, p{
     background-color: #2d3436;
 }
 
@@ -28,15 +20,13 @@ body {
     color: #dfe6e9;
 }
 
-h1,
-h2,
-p{
-    color: #2d3436;
-}
-
 li, .col-lg-auto > h2
 {
     color: #2d3436;
+}
+
+#nombre, #trayectoriaTitulo{
+    text-decoration: underline;
 }
 
 .border-5-start-0, .border-end-5{
@@ -54,19 +44,9 @@ li, .col-lg-auto > h2
     padding: 0;
 }
 
-@media only screen and (max-width: 991px) {
-    .col-nombre {
-        text-align: center;
-    }
-}
-
 .redondo {
     border: 1px solid black;
     border-radius: 50%;
-}
-
-.w-100{
-    width: 100% !important;
 }
 
 h1 {
@@ -81,6 +61,13 @@ p, dd {
     font-size: 2vmin;
 }
 
+/* Texto para dispositivos móviles */
+
+@media only screen and (max-width: 991px) {
+    .col-nombre {
+        text-align: center;
+    }
+}
 
 @media only screen and (max-width: 991px) {
     h1 {
@@ -95,6 +82,8 @@ p, dd {
         font-size: 3.5vmin;
     }
 }
+
+/* Bordes */
 
 .border-5-start-0{
     border: 5px solid #e17055 !important;

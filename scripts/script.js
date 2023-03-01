@@ -17,7 +17,6 @@ const iconos = {
   direccion: '<i class="fi fi-br-home"></i> '
 }
 
-
 document.addEventListener("DOMContentLoaded", async function(){
   await nuevaPersona();
 })
