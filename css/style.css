@@ -33,6 +33,10 @@ li, .col-lg-auto > h2
     text-decoration: underline;
 }
 
+h2#trayectoriaTitulo{
+    display: inline;
+}
+
 .border-5-start-0, .border-end-5{
     background-color: #f7f1e3;
 }
@@ -57,7 +61,7 @@ h1 {
     font-size: 3.5vmin;
 }
 
-h2, li {
+h2, li, i {
     font-size: 2.5vmin;
 }
 
@@ -78,7 +82,7 @@ p, dd {
         font-size: 5vmin;
     }
 
-    h2, li {
+    h2, li, i {
         font-size: 4vmin;
     }
 
