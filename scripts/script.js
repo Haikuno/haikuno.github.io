@@ -7,14 +7,14 @@ const profesionesF = ["Abogada", "Médica", "Ingeniera", "Profesora", "Psicólog
 
 
 const iconos = {
-  profesion: '<i class="fi fi-br-briefcase"></i> ',
-  genero: '<i class="fi fi-br-couple"></i> ',
-  nacionalidad: '<i class="fi fi-br-world"></i> ',
-  fechaDeNacimiento: '<i class="fi fi-br-calendar-lines"></i> ',
-  email: '<i class="fi fi-br-envelope"></i> ',
-  edad: '<i class="fi fi-br-user-time"></i> ',
-  telefono: '<i class="fi fi-br-phone-call"></i> ',
-  direccion: '<i class="fi fi-br-home"></i> '
+  profesion: '<i class="fi fi-sr-briefcase"></i> ',
+  genero: '<i class="fi fi-sr-venus-mars"></i> ',
+  nacionalidad: '<i class="fi fi-sr-world"></i> ',
+  fechaDeNacimiento: '<i class="fi fi-sr-calendar-lines"></i> ',
+  email: '<i class="fi fi-sr-envelope"></i> ',
+  edad: '<i class="fi fi-sr-user-time"></i> ',
+  telefono: '<i class="fi fi-sr-phone-call"></i> ',
+  direccion: '<i class="fi fi-sr-home"></i> '
 }
 
 document.addEventListener("DOMContentLoaded", async function(){
