@@ -61,11 +61,11 @@ h1 {
     font-size: 3.5vmin;
 }
 
-h2, li, i {
+h2, li{
     font-size: 2.5vmin;
 }
 
-p, dd {
+p, dd, i{
     font-size: 2vmin;
 }
 
@@ -82,11 +82,11 @@ p, dd {
         font-size: 5vmin;
     }
 
-    h2, li, i {
+    h2, li {
         font-size: 4vmin;
     }
 
-    p, dd {
+    p, dd, i {
         font-size: 3.5vmin;
     }
 }
